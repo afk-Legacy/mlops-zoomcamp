@@ -1,0 +1,51 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2023-06-06T17:16:21.025869",
+    "startedAt": "2023-06-06T17:16:18.930374",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "NYC_TAXI_MODULE_2",
+        "--wandb_entity",
+        "afk-Legacy",
+        "--data_artifact",
+        "afk-legacy/NYC_TAXI_MODULE_2/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "d:\\Dev\\projects\\MLOpsZoomcamp\\Module2\\homework-wandb\\scripts\\train.py",
+    "codePath": "scripts\\train.py",
+    "host": "DESKTOP-9RSN6VV",
+    "username": "Abdul.Rahman",
+    "executable": "d:\\Dev\\projects\\MLOpsZoomcamp\\Module2\\.venv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2600.0,
+        "min": 0.0,
+        "max": 2701.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 2701.0
+        }
+    ],
+    "disk": {
+        "total": 465.75878524780273,
+        "used": 458.2242736816406
+    },
+    "gpu": "Quadro K1100M",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro K1100M",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 7.907413482666016
+    }
+}

@@ -1,0 +1,34 @@
+2023-06-06 22:22:32,526 INFO    Thread-83 :18348 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-06-06 22:22:32,527 INFO    Thread-83 :18348 [wandb_setup.py:_flush():76] Configure stats pid to 18348
+2023-06-06 22:22:32,528 INFO    Thread-83 :18348 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Abdul.Rahman\.config\wandb\settings
+2023-06-06 22:22:32,528 INFO    Thread-83 :18348 [wandb_setup.py:_flush():76] Loading settings from d:\Dev\projects\MLOpsZoomcamp\Module2\homework-wandb\wandb\settings
+2023-06-06 22:22:32,528 INFO    Thread-83 :18348 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'afk-legacy', 'project': 'NYC_TAXI_MODULE_2', 'root_dir': 'd:\\Dev\\projects\\MLOpsZoomcamp\\Module2\\homework-wandb', 'run_id': '6681mcxv', 'sweep_param_path': 'd:\\Dev\\projects\\MLOpsZoomcamp\\Module2\\homework-wandb\\wandb\\sweep-bp78umeo\\config-6681mcxv.yaml', 'sweep_id': 'bp78umeo'}
+2023-06-06 22:22:32,533 INFO    Thread-83 :18348 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-06 22:22:32,533 INFO    Thread-83 :18348 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts\\sweep.py', 'program': 'd:\\Dev\\projects\\MLOpsZoomcamp\\Module2\\homework-wandb\\scripts\\sweep.py'}
+2023-06-06 22:22:32,534 INFO    Thread-83 :18348 [wandb_init.py:_log_setup():507] Logging user logs to d:\Dev\projects\MLOpsZoomcamp\Module2\homework-wandb\wandb\run-20230606_222232-6681mcxv\logs\debug.log
+2023-06-06 22:22:32,535 INFO    Thread-83 :18348 [wandb_init.py:_log_setup():508] Logging internal logs to d:\Dev\projects\MLOpsZoomcamp\Module2\homework-wandb\wandb\run-20230606_222232-6681mcxv\logs\debug-internal.log
+2023-06-06 22:22:32,536 INFO    Thread-83 :18348 [wandb_init.py:init():547] calling init triggers
+2023-06-06 22:22:32,536 INFO    Thread-83 :18348 [wandb_init.py:init():554] wandb.init called with sweep_config: {'max_depth': 1, 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 18}
+config: {}
+2023-06-06 22:22:32,536 INFO    Thread-83 :18348 [wandb_init.py:init():596] starting backend
+2023-06-06 22:22:32,537 INFO    Thread-83 :18348 [wandb_init.py:init():600] setting up manager
+2023-06-06 22:22:32,560 INFO    Thread-83 :18348 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-06-06 22:22:32,580 INFO    Thread-83 :18348 [wandb_init.py:init():606] backend started and connected
+2023-06-06 22:22:32,589 INFO    Thread-83 :18348 [wandb_run.py:_config_callback():1286] config_cb None None {'max_depth': 1, 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 18}
+2023-06-06 22:22:32,591 INFO    Thread-83 :18348 [wandb_init.py:init():700] updated telemetry
+2023-06-06 22:22:32,593 INFO    Thread-83 :18348 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-06-06 22:22:33,550 INFO    Thread-83 :18348 [wandb_run.py:_on_init():2177] communicating current version
+2023-06-06 22:22:33,800 INFO    Thread-83 :18348 [wandb_run.py:_on_init():2186] got version response 
+2023-06-06 22:22:33,800 INFO    Thread-83 :18348 [wandb_init.py:init():787] starting run threads in backend
+2023-06-06 22:22:34,816 INFO    Thread-83 :18348 [wandb_run.py:_console_start():2158] atexit reg
+2023-06-06 22:22:34,816 INFO    Thread-83 :18348 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-06-06 22:22:34,816 INFO    Thread-83 :18348 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-06-06 22:22:34,817 INFO    Thread-83 :18348 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-06-06 22:22:34,818 INFO    Thread-83 :18348 [wandb_init.py:init():829] run started, returning control to user process
+2023-06-06 22:22:39,296 INFO    Thread-83 :18348 [wandb_run.py:_finish():1893] finishing run afk-legacy/NYC_TAXI_MODULE_2/6681mcxv
+2023-06-06 22:22:39,296 INFO    Thread-83 :18348 [wandb_run.py:_atexit_cleanup():2127] got exitcode: 0
+2023-06-06 22:22:39,296 INFO    Thread-83 :18348 [wandb_run.py:_restore():2110] restore
+2023-06-06 22:22:39,297 INFO    Thread-83 :18348 [wandb_run.py:_restore():2116] restore done
+2023-06-06 22:22:49,121 INFO    Thread-83 :18348 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-06 22:22:49,121 INFO    Thread-83 :18348 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-06 22:22:49,128 INFO    Thread-83 :18348 [wandb_run.py:_footer_sync_info():3428] logging synced files
